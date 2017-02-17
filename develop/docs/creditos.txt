@@ -1,0 +1,18 @@
+CREDITOS
+EQUIPO DE DESARROLLO
+-Programadores:
+Modulo logica   - Iñaki Cadalso
+Modulo elementos- Diego Chicote
+Modulo interfaz - Miguel Gomez-Tavira
+-Diseño de mapas:
+ Diego Chicote
+-Diseño del XML:
+ Iñaki Cadalso y Miguel Gomez-Tavira
+-Diseño de enemigos: Iñaki Cadalso
+-Jefe de proyecto: Miguel Gomez-Tavira
+-Motivador: Diego Chicote
+-Idea argumental: Sacha Jr
+AGRADECIMINETOS:
+Sacha y Santini por la ayuda prestada
+y por aguantarnos durante las tutorias.
+          Pulsa s para salir.

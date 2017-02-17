@@ -1,0 +1,1352 @@
+<mundo>
+    <entorno id = "mapa0">
+        <nombreEntorno>Entrada del castillo</nombreEntorno>
+        <descEntorno>Estoy en la entrada del castillo, al sur hay un lago.</descEntorno>
+        <invEntorno>
+            <objeto id= "esp">
+                <filObjeto>3</filObjeto>
+                <colObjeto>43</colObjeto>
+                <nombreObj>ESPADA</nombreObj>
+                <descObj>Usar esta espada aumentara mi fuerza.</descObj>
+                <graphObj>/</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+        </invEntorno>
+        <numObjetosEntorno>1</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="Alpha">
+                <filPj>4</filPj>
+                <colPj>33</colPj>
+                <nombrePj>ALPHA</nombrePj>
+                <descPj>Coge y usa la espada para defenderte.</descPj>
+                <graphPj>F</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>20</vitalidad>
+                <vitTotal>20</vitTotal>
+                <fuerza>10</fuerza>
+                <defensa>30</defensa>
+                <interactuar>1</interactuar>
+                <atacable>0</atacable>
+            </personaje>
+        </pjsEntorno>
+        <numPjsEntorno>1</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>2</salCol>
+            <salFil>4</salFil>
+	    <enCol>57</enCol>
+	    <enFil>6</enFil>
+            <mapa>-----------------------------------------------------------
+                  -                                               -         -
+                  -   8                                           -         -
+                  -                                          /    -         -
+                  -                                F              -----------
+                  -                                                         -
+                  -                                                         &gt;
+                  -       ~~~~~~~~~~~~                            -----------
+                  -       ~~~~~~~~~~~~                            -         -
+                  -       ~~~~~~~~~~~~                            -         -
+                  -----------------------------------------------------------</mapa>
+        </mapaEntorno>
+    </entorno>    
+    <entorno id = "mapa1">
+        <nombreEntorno>Vestibulo del castillo</nombreEntorno>
+        <descEntorno>Pasillos llenos de enemigos, debo ir con cuidado.</descEntorno>
+        <invEntorno>
+            <objeto id= "esp">
+                <filObjeto>7</filObjeto>
+                <colObjeto>28</colObjeto>
+                <nombreObj>ESPADA</nombreObj>
+                <descObj>Usar esta espada aumentara mi fuerza.</descObj>
+                <graphObj>/</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "esc">
+                <filObjeto>3</filObjeto>
+                <colObjeto>25</colObjeto>
+                <nombreObj>ESCUDO</nombreObj>
+                <descObj>Usar este escudo aumentara mi defensa.</descObj>
+                <graphObj>O</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "poc">
+                <filObjeto>7</filObjeto>
+                <colObjeto>12</colObjeto>
+                <nombreObj>POCION</nombreObj>
+                <descObj>Usar esta pocion aumentara mi vida maxima en 5.</descObj>
+                <graphObj>+</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+            </objeto>
+        </invEntorno>
+        <numObjetosEntorno>4</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="gob">
+                <filPj>9</filPj>
+                <colPj>8</colPj>
+                <nombrePj>GOBLING</nombrePj>
+                <descPj>Es un pequeno duende con un garrote.</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>6</fuerza>
+                <defensa>5</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>7</filPj>
+                <colPj>32</colPj>
+                <nombrePj>GOBLINC</nombrePj>
+                <descPj>Es un pequeno duende con un casco.</descPj>
+                <graphPj>2</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>3</filPj>
+                <colPj>41</colPj>
+                <nombrePj>GOBLINE</nombrePj>
+                <descPj>Es un pequeno duende con una espada.</descPj>
+                <graphPj>3</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+        </pjsEntorno>
+        <numPjsEntorno>3</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>1</salCol>
+            <salFil>1</salFil>
+	    <enCol>57</enCol>
+	    <enFil>1</enFil>
+            <mapa>-&lt;---------------------------------------------------------
+                  -       -             -                                   &gt;
+                  -       -       -     -    --------------------------------
+                  -       -       -     -  O               3                -
+                  -       -       -     -------------------------------     -
+                  -       -       -                 -                       -
+                  -       -       -     ---------   -   ---------------------
+                  -       -   +   -     -     / - 2 -                       -
+                  -       ---------     -  ------   ---------------------   -
+                  -       1             -                                   -
+                  -----------------------------------------------------------</mapa>
+        </mapaEntorno>
+    </entorno>
+   <entorno id = "mapa2">
+        <nombreEntorno>Camino a las mazmorras</nombreEntorno>
+        <descEntorno>Estos pasillos conducen a lo mas profundo del castillo.</descEntorno>
+        <invEntorno>
+            <objeto id= "bot">
+                <filObjeto>3</filObjeto>
+                <colObjeto>22</colObjeto>
+                <nombreObj>BOTAS</nombreObj>
+                <descObj>Botas de armadura, aumentan mi defensa.</descObj>
+                <graphObj>B</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "pec01">
+                <filObjeto>5</filObjeto>
+                <colObjeto>23</colObjeto>
+                <nombreObj>PECHERA</nombreObj>
+                <descObj>Pechera de armadura, aumenta mi defensa.</descObj>
+                <graphObj>M</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "pant">
+                <filObjeto>9</filObjeto>
+                <colObjeto>24</colObjeto>
+                <nombreObj>PANTALONES</nombreObj>
+                <descObj>Pantalon de armadura, aumenta mi defensa.</descObj>
+                <graphObj>N</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "poc">
+                <filObjeto>7</filObjeto>
+                <colObjeto>54</colObjeto>
+                <nombreObj>POCION</nombreObj>
+                <descObj>Usar esta pocion aumentara mi vida maxima en 5.</descObj>
+                <graphObj>+</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>      
+        </invEntorno>
+        <numObjetosEntorno>4</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>17</colPj>
+                <nombrePj>GOBLING</nombrePj>
+                <descPj>Es un pequeno duende con un garrote.</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>3</filPj>
+                <colPj>52</colPj>
+                <nombrePj>GOBLINC</nombrePj>
+                <descPj>Es un pequeno duende con un casco.</descPj>
+                <graphPj>2</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>3</filPj>
+                <colPj>5</colPj>
+                <nombrePj>GOBLINE</nombrePj>
+                <descPj>Es un pequeno duende con una espada.</descPj>
+                <graphPj>3</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>5</filPj>
+                <colPj>19</colPj>
+                <nombrePj>GOBLIND</nombrePj>
+                <descPj>Es un pequeno duende con una daga.</descPj>
+                <graphPj>4</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>7</filPj>
+                <colPj>45</colPj>
+                <nombrePj>GOBLINL</nombrePj>
+                <descPj>Es un pequeno duende con una lanza.</descPj>
+                <graphPj>5</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>9</filPj>
+                <colPj>35</colPj>
+                <nombrePj>GOBLINM</nombrePj>
+                <descPj>Es un pequeno duende con una maza.</descPj>
+                <graphPj>6</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+        </pjsEntorno>
+        <numPjsEntorno>6</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>1</salCol>
+            <salFil>1</salFil>
+	    <enCol>57</enCol>
+	    <enFil>9</enFil>
+            <mapa>-&lt;---------------------------------------------------------
+                  -                1                                        -
+                  -----------------------------------------------------     -
+                  -    3                B                             2   ---
+                  -   -------------------------------------------     -------
+                  -                  4   M                      -           -
+                  ------------------------------------------    -------------
+                  -                                            5        +   -
+                  -    ------------------------------------------------------
+                  -                       N          6                      &gt;
+                  -----------------------------------------------------------</mapa>
+        </mapaEntorno>
+    </entorno> 
+    <entorno id = "mapa3">
+        <nombreEntorno>Mazmorras Exteriores</nombreEntorno>
+        <descEntorno>Te encuentras en las mazzmoras donde se llevaron acabo las peores torturas</descEntorno>
+        <invEntorno>
+            <objeto id= "cas">
+                <filObjeto>1</filObjeto>
+                <colObjeto>1</colObjeto>
+                <nombreObj>CASCO</nombreObj>
+                <descObj>Casco de armadura,aumentara mi defensa.</descObj>
+                <graphObj>H</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "esp">
+                <filObjeto>1</filObjeto>
+                <colObjeto>7</colObjeto>
+                <nombreObj>ESPADA</nombreObj>
+                <descObj>Usar esta espada aumentara mi fuerza.</descObj>
+                <graphObj>/</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "poc">
+                <filObjeto>9</filObjeto>
+                <colObjeto>3</colObjeto>
+                <nombreObj>POCION</nombreObj>
+                <descObj>Una pocion que aumenta mi vida maxima en 5.</descObj>
+                <graphObj>+</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "pant">
+                <filObjeto>1</filObjeto>
+                <colObjeto>28</colObjeto>
+                <nombreObj>PANTALONES</nombreObj>
+                <descObj>Pantalon de armadura, aumentara mi defensa.</descObj>
+                <graphObj>N</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+        </invEntorno>
+        <numObjetosEntorno>4</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="gob">
+                <filPj>3</filPj>
+                <colPj>2</colPj>
+                <nombrePj>GOBLING</nombrePj>
+                <descPj>Es un pequeno duende con un garrote.</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>15</colPj>
+                <nombrePj>GOBLINC</nombrePj>
+                <descPj>Es un pequeno duende con un casco.</descPj>
+                <graphPj>2</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>41</colPj>
+                <nombrePj>GOBLINE</nombrePj>
+                <descPj>Es un pequeno duende con una espada.</descPj>
+                <graphPj>3</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>7</filPj>
+                <colPj>57</colPj>
+                <nombrePj>GOBLIND</nombrePj>
+                <descPj>Es un pequeno duende con una daga.</descPj>
+                <graphPj>4</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>9</filPj>
+                <colPj>34</colPj>
+                <nombrePj>GOBLINL</nombrePj>
+                <descPj>Es un pequeno duende con una lanza.</descPj>
+                <graphPj>5</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>50</vitalidad>
+                <vitTotal>50</vitTotal>
+                <fuerza>20</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>7</filPj>
+                <colPj>44</colPj>
+                <nombrePj>GOBLINM</nombrePj>
+                <descPj>Es un pequeno duende con una maza.</descPj>
+                <graphPj>6</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>3</filPj>
+                <colPj>26</colPj>
+                <nombrePj>GOBLINP</nombrePj>
+                <descPj>Es un pequeno duende con una pechera.</descPj>
+                <graphPj>7</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+        </pjsEntorno>
+        <numPjsEntorno>7</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>1</salCol>
+            <salFil>9</salFil>
+	    <enCol>57</enCol>
+	    <enFil>3</enFil>
+            <mapa>-----------------------------------------------------------
+                  -H     /       2      -     N            3                -
+                  -  --------------     ------------------------------   ----
+                  --1-                      7                            -  &gt;
+                  -  -        ---------------------------------------    -  -
+                  -           -                                     -    -  -
+                  -  -        ---------------------------------------    -  -
+                  -  -----------------------------            6          --4-
+                  -  -              ---         --   ---------------------  -
+                  -  +     ---         ---          5                       -
+                  -&lt;---------------------------------------------------------</mapa>
+
+        </mapaEntorno>
+    </entorno>
+<entorno id = "mapa4">
+        <nombreEntorno>Pasillos de la angustia</nombreEntorno>
+        <descEntorno>Se oye el eco de los gritos de los presos.</descEntorno>
+        <invEntorno>
+            <objeto id= "esp">
+                <filObjeto>9</filObjeto>
+                <colObjeto>7</colObjeto>
+                <nombreObj>ESPADA</nombreObj>
+                <descObj>Usar esta espada aumentara mi fuerza.</descObj>
+                <graphObj>/</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "pec">
+                <filObjeto>4</filObjeto>
+                <colObjeto>21</colObjeto>
+                <nombreObj>PECHERA</nombreObj>
+                <descObj>Pechera de armadura, aumentara mi defensa.</descObj>
+                <graphObj>M</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "poc">
+                <filObjeto>6</filObjeto>
+                <colObjeto>31</colObjeto>
+                <nombreObj>POCION</nombreObj>
+                <descObj>Una pocion que me curara.</descObj>
+                <graphObj>+</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "esc">
+                <filObjeto>5</filObjeto>
+                <colObjeto>56</colObjeto>
+                <nombreObj>ESCUDO</nombreObj>
+                <descObj>Usar este escudo aumentara mi defensa.</descObj>
+                <graphObj>O</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+        </invEntorno>
+        <numObjetosEntorno>4</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="gob">
+                <filPj>8</filPj>
+                <colPj>16</colPj>
+                <nombrePj>GOBLING</nombrePj>
+                <descPj>Es un pequeno duende con un garrote.</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>9</filPj>
+                <colPj>25</colPj>
+                <nombrePj>GOBLINC</nombrePj>
+                <descPj>Es un pequeno duende con un casco.</descPj>
+                <graphPj>2</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>44</colPj>
+                <nombrePj>GOBLINE</nombrePj>
+                <descPj>Es un pequeno duende con una espada.</descPj>
+                <graphPj>3</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>22</colPj>
+                <nombrePj>GOBLIND</nombrePj>
+                <descPj>Es un pequeno duende con una daga.</descPj>
+                <graphPj>4</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+        </pjsEntorno>
+        <numPjsEntorno>4</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>7</salCol>
+            <salFil>1</salFil>
+	    <enCol>48</enCol>
+	    <enFil>5</enFil>
+            <mapa>-----------------------------------------------------------
+                  -               -     4                     3             -
+                  -   ---&lt;-----   -  -----                 --------------   -
+                  -   -       -   -  -   -   -----------   -            -   -
+                  -   -       -   -  - M -   -         -   -  -------   -   -
+                  -   -       -   -  -   -   -  -----  -   -  -    &gt;-   - O -
+                  -   -       -   -  -   -   -  -+  -  -   -  -  ----   -   -
+                  -   -       -   ----   -   -  -      -   -  -         -   -
+                  -   ---------   1      -----  --------   -  -----------   -
+                  -      /        -        2               -                -
+                  -----------------------------------------------------------</mapa>
+        </mapaEntorno>
+    </entorno>
+<entorno id = "mapa5">
+        <nombreEntorno>Armeria del castillo</nombreEntorno>
+        <descEntorno>Aqui es donde las hordas del dragon guardan sus armas.</descEntorno>
+        <invEntorno>
+            <objeto id= "pec">
+                <filObjeto>1</filObjeto>
+                <colObjeto>30</colObjeto>
+                <nombreObj>PECHERA</nombreObj>
+                <descObj>Pechera de armadura, aumentara mi defensa.</descObj>
+                <graphObj>M</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "cas">
+                <filObjeto>1</filObjeto>
+                <colObjeto>14</colObjeto>
+                <nombreObj>CASCO</nombreObj>
+                <descObj>Casco de armadura, aumentara mi defensa.</descObj>
+                <graphObj>H</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "poc">
+                <filObjeto>1</filObjeto>
+                <colObjeto>46</colObjeto>
+                <nombreObj>POCION</nombreObj>
+                <descObj>Una pocion que me curara.</descObj>
+                <graphObj>+</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "pant">
+                <filObjeto>8</filObjeto>
+                <colObjeto>2</colObjeto>
+                <nombreObj>PANTALONES</nombreObj>
+                <descObj>Pantalon de armadura, aumentara mi defensa.</descObj>
+                <graphObj>N</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+        </invEntorno>
+        <numObjetosEntorno>4</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="gob">
+                <filPj>9</filPj>
+                <colPj>17</colPj>
+                <nombrePj>GOBLING</nombrePj>
+                <descPj>Es un pequeno duende con un garrote.</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>6</colPj>
+                <nombrePj>GOBLINC</nombrePj>
+                <descPj>Es un pequeno duende con un casco.</descPj>
+                <graphPj>2</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>24</colPj>
+                <nombrePj>GOBLINE</nombrePj>
+                <descPj>Es un pequeno duende con una espada.</descPj>
+                <graphPj>3</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>4</filPj>
+                <colPj>23</colPj>
+                <nombrePj>GOBLIND</nombrePj>
+                <descPj>Es un pequeno duende con una daga.</descPj>
+                <graphPj>4</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>1</filPj>
+                <colPj>44</colPj>
+                <nombrePj>GOBLINL</nombrePj>
+                <descPj>Es un pequeno duende con una lanza.</descPj>
+                <graphPj>5</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>3</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>9</filPj>
+                <colPj>38</colPj>
+                <nombrePj>GOBLINM</nombrePj>
+                <descPj>Es un pequeno duende con una maza.</descPj>
+                <graphPj>6</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="gob">
+                <filPj>6</filPj>
+                <colPj>31</colPj>
+                <nombrePj>GOBLINP</nombrePj>
+                <descPj>Es un pequeno duende con una pechera.</descPj>
+                <graphPj>7</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>5</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+        </pjsEntorno>
+        <numPjsEntorno>7</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>1</salCol>
+            <salFil>4</salFil>
+	    <enCol>27</enCol>
+	    <enFil>9</enFil>
+            <mapa>-----------------------------------------------------------
+                  -     2       H  -      3     M  -     -    5 +           -
+                  -    -------------    ------------     -    --------    ---
+                  -    -           -    -                -    -             -
+                  -                -     4                    -             -
+                  -&lt;-----    -------     -----------------------------      -
+                  -                -     -       7      -            -      -
+                  -------    -------     ---    --      ----   ---   ----   -
+                  - N  --          -     -       -      -      -            -
+                  -                1     -       -      6      -            -
+                  ---------------------------&gt;-------------------------------</mapa>
+
+        </mapaEntorno>
+    </entorno>
+    <entorno id = "mapa6">
+        <nombreEntorno>Patio interior</nombreEntorno>
+        <descEntorno>Te encuentras en los jardines de la morada del dragon</descEntorno>
+        <invEntorno>
+            <objeto id= "esp01">
+                <filObjeto>7</filObjeto>
+                <colObjeto>17</colObjeto>
+                <nombreObj>ESPADA</nombreObj>
+                <descObj>Usar esta espada aumentara mi fuerza.</descObj>
+                <graphObj>/</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "pocC01">
+                <filObjeto>9</filObjeto>
+                <colObjeto>55</colObjeto>
+                <nombreObj>LIBRO</nombreObj>
+                <descObj>Conocere mejor a mi enemigp</descObj>
+                <graphObj>L</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+
+        </invEntorno>
+        <numObjetosEntorno>2</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="vamp">
+                <filPj>1</filPj>
+                <colPj>34</colPj>
+                <nombrePj>VAMPIRO</nombrePj>
+                <descPj>No dejes el cuello expuesto</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>25</vitalidad>
+                <vitTotal>25</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="wolf">
+                <filPj>3</filPj>
+                <colPj>34</colPj>
+                <nombrePj>LICANTROPO</nombrePj>
+                <descPj>Hay luna llena...</descPj>
+                <graphPj>2</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>25</vitalidad>
+                <vitTotal>25</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="03">
+                <filPj>5</filPj>
+                <colPj>34</colPj>
+                <nombrePj>BANSHEE</nombrePj>
+                <descPj>Espiritu femenino atormentado</descPj>
+                <graphPj>3</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>30</vitalidad>
+                <vitTotal>30</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="quimera">
+                <filPj>7</filPj>
+                <colPj>34</colPj>
+                <nombrePj>QUIMERA</nombrePj>
+                <descPj>Mounstro horrendo de tres cabezas</descPj>
+                <graphPj>4</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>60</vitalidad>
+                <vitTotal>60</vitTotal>
+                <fuerza>40</fuerza>
+                <defensa>50</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="lev">
+                <filPj>9</filPj>
+                <colPj>34</colPj>
+                <nombrePj>LEVIATAN</nombrePj>
+                <descPj>Monstruo o criatura acuática de gran tamaño</descPj>
+                <graphPj>5</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>200</vitalidad>
+                <vitTotal>200</vitTotal>
+                <fuerza>20</fuerza>
+                <defensa>10</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="diomenes">
+                <filPj>9</filPj>
+                <colPj>52</colPj>
+                <nombrePj>ARQUERO</nombrePj>
+                <descPj>Soldado</descPj>
+                <graphPj>6</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+
+        </pjsEntorno>
+        <numPjsEntorno>6</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>1</salCol>
+            <salFil>1</salFil>
+	    <enCol>57</enCol>
+	    <enFil>1</enFil>
+            <mapa>-&lt;---------------------------------------------------------
+                  -    -                  -         1          -        -   &gt;
+                  -    -   ----------     -   --------------   -    -   -   -
+                  -    -   -              -         2          -    -   -   -
+                  -    -   -   ------------   --------------        -   -   -
+                  -    -   -   -          -         3          -    -   -   -
+                  -    -   -   -  -----   -   --------------   -    -   -   -
+                  -    -   -   -   /  -   -         4          -    -   -   -
+                  -    -   -   --------   -   --------------   -    -----   -
+                  -        -                        5          -      6  L  -
+                  -----------------------------------------------------------</mapa>
+
+        </mapaEntorno>
+    </entorno>
+
+    <entorno id = "mapa7">
+        <nombreEntorno>Galerias del calvario</nombreEntorno>
+        <descEntorno>Estoy muy cerca del dragon segun avanzo se amplifica el olor a azufre..</descEntorno>
+        <invEntorno>
+            <objeto id= "esp01">
+                <filObjeto>9</filObjeto>
+                <colObjeto>21</colObjeto>
+                <nombreObj>ESPADA</nombreObj>
+                <descObj>Usar esta espada aumentara mi fuerza.</descObj>
+                <graphObj>/</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "esc01">
+                <filObjeto>4</filObjeto>
+                <colObjeto>2</colObjeto>
+                <nombreObj>ESCUDO</nombreObj>
+                <descObj>Escudo perteneciente a un gran heroe de la antiguedad.</descObj>
+                <graphObj>O</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+                <destTeleport></destTeleport>
+            </objeto>
+            <objeto id= "pocV01">
+                <filObjeto>1</filObjeto>
+                <colObjeto>46</colObjeto>
+                <nombreObj>POCION</nombreObj>
+                <descObj>Usar esta pocion te curara.</descObj>
+                <graphObj>+</graphObj>
+                <movil>1</movil>
+                <movido>0</movido>
+                <ilumina>0</ilumina>
+                <encendido>0</encendido>
+                <rompible>0</rompible>
+                <roto>0</roto>
+                <teleport>0</teleport>
+            </objeto>
+
+        </invEntorno>
+        <numObjetosEntorno>3</numObjetosEntorno>
+        <pjsEntorno>
+            <personaje id="marine">
+                <filPj>1</filPj>
+                <colPj>9</colPj>
+                <nombrePj>MARINE</nombrePj>
+                <descPj>Soldado de elite del futuro</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="zea">
+                <filPj>4</filPj>
+                <colPj>8</colPj>
+                <nombrePj>ZEALOT</nombrePj>
+                <descPj>Fanatico con cuchillas en los antebrazos."Por Aiur"</descPj>
+                <graphPj>2</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="stalker">
+                <filPj>9</filPj>
+                <colPj>10</colPj>
+                <nombrePj>ACECHADOR</nombrePj>
+                <descPj>Criatura mecanica cuadripeda</descPj>
+                <graphPj>3</graphPj>
+                <invPj>
+                    
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="coloso">
+                <filPj>9</filPj>
+                <colPj>37</colPj>
+                <nombrePj>COLOSO</nombrePj>
+                <descPj>Criatura enorme,provista de lanzs termicas</descPj>
+                <graphPj>4</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="ling">
+                <filPj>6</filPj>
+                <colPj>32</colPj>
+                <nombrePj>LING</nombrePj>
+                <descPj>Diminuta criatura provista de afilados dientes y gran velocidad</descPj>
+                <graphPj>5</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="hydra">
+                <filPj>1</filPj>
+                <colPj>25</colPj>
+                <nombrePj>HYDRA</nombrePj>
+                <descPj>Criatura tipo dragon con varias cabezas</descPj>
+                <graphPj>6</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+            <personaje id="Ultra">
+                <filPj>3</filPj>
+                <colPj>33</colPj>
+                <nombrePj>ULTRALISKO</nombrePj>
+                <descPj>Criatura enorme con pinzas muy afiladas</descPj>
+                <graphPj>7</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+
+        </pjsEntorno>
+        <numPjsEntorno>7</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>58</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>1</salCol>
+            <salFil>1</salFil>
+	    <enCol>57</enCol>
+	    <enFil>5</enFil>
+            <mapa>----------------    -----------          ------------------
+                  -        1     -    -    6    -          -    +      -    -
+                  -&lt;----------   -    -   ---   ------------   ----    -    -
+                  ------------   -    -   - -      7           -  -    -    -
+                  - O     2      -    -   - --------------------  -    ------
+                  -    -----------    -   ----------------------  -         &gt;
+                  -    -              -           5            -  -----------
+                  -    -              --------------------     -            -
+                  -    -----------------------------------     -            -
+                  -         3          /               4       -            -
+                  -----------------------------------------------------------</mapa>
+
+        </mapaEntorno>
+    </entorno>
+
+    <entorno id = "mapa8">
+        <nombreEntorno>Sala magna</nombreEntorno>
+        <descEntorno>La ultima zona del castillo aqui esta la princesa y el dragon</descEntorno>
+        <invEntorno>
+
+        </invEntorno>
+        <numObjetosEntorno>0</numObjetosEntorno>
+<pjsEntorno>
+            <personaje id="sum">
+                <filPj>3</filPj>
+                <colPj>3</colPj>
+                <nombrePj>SACERDOTE</nombrePj>
+                <descPj>Sumo sacerdote que te ayudara a rescatar a la princesa</descPj>
+                <graphPj>7</graphPj>
+                <invPj>
+
+                </invPj>
+                <vitalidad>5</vitalidad>
+                <vitTotal>5</vitTotal>
+                <fuerza>3</fuerza>
+                <defensa>2</defensa>
+                <interactuar>1</interactuar>
+                <atacable>0</atacable>
+            </personaje>
+            <personaje id="dragon">
+                <filPj>1</filPj>
+                <colPj>33</colPj>
+                <nombrePj>DRAGON</nombrePj>
+                <descPj>Señor del Crepusculo y Amo de lo Arcano</descPj>
+                <graphPj>D</graphPj>
+                <invPj>
+                    
+                </invPj>
+                <vitalidad>100</vitalidad>
+                <vitTotal>100</vitTotal>
+                <fuerza>50</fuerza>
+                <defensa>30</defensa>
+                <interactuar>0</interactuar>
+                <atacable>1</atacable>
+            </personaje>
+           <personaje id="princes">
+                <filPj>3</filPj>
+                <colPj>40</colPj>
+                <nombrePj>PRINCESA</nombrePj>
+                <descPj>Se parece a la de mario, pero en peliroja..</descPj>
+                <graphPj>1</graphPj>
+                <invPj>
+                    
+                </invPj>
+                <vitalidad>1</vitalidad>
+                <vitTotal>1</vitTotal>
+                <fuerza>1</fuerza>
+                <defensa>1</defensa>
+                <interactuar>1</interactuar>
+                <atacable>0</atacable>
+            </personaje>
+        </pjsEntorno>
+        <numPjsEntorno>3</numPjsEntorno>
+        <mapaEntorno>
+            <colMapa>59</colMapa>
+            <filMapa>11</filMapa>
+            <salCol>2</salCol>
+            <salFil>9</salFil>
+	    <enCol>0</enCol>
+	    <enFil>0</enFil>
+            <mapa>------     ------------------------------------------------
+                  -    -     -               -     D                        -
+                  -    -     -               -     |\/|                     -
+                  -  F -     -               -     (00)\  9                 -
+                  -    -------               -    //_/\_\__    _______----- -
+                  -                          -   @@/  |=\  \  /    ______/  -
+                  -    -------               -          \==\ \|\_/          -
+                  -    -     -               -      ___(\===\(  )\          -
+                  -    -     -               -     (((~) ___(_/   |'------' -
+                  -    -     -               -          (((~)               -
+                  --&lt;---     ------------------------------------------------</mapa>
+
+        </mapaEntorno>
+    </entorno>
+</mundo>

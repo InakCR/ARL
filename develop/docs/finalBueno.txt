@@ -1,0 +1,26 @@
+Para cambiar del modo texto a cómandos pulse s(witch) y enter.
+Para volver al modo texto pulsar s(witch).
+
+El modo comandos sirve para moverse por el mapa, mediante las flechas 
+del teclado.
+En el modo texto se pueden realizar las siguientes acciones, escribiendo:
+
+-Atacar  |
+-Examinar|
+-Coger   | y el objeto sobre el que se realizara la acción.
+-Usar    |
+-Hablar  |
+
+Escribe "creditos juego" en el modo texto para ver los creditos de desarrollo.
+La interfaz es bastante intuitiva, aun asi procedemos a explicar
+su funcionamiento:
+
+Consta de 4 ventanas:
+-Mapa:       donde se muestra el entorno al jugador.
+-Consola:    donde el jugador introduce los comandos.
+-Inventario: donde se muestra el contenido del inventario del jugador, asi como
+             los personajes y los objetos del entorno.
+-Stats:      donde se muestran la vida el ataque y la defensa del personaje.
+
+Ahora que estas bien informado, prueba a cambiar al modo acciones y moverte.
+                           Pulsa s para salir.
