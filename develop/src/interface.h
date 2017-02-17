@@ -4,7 +4,7 @@ Nombre del fichero: interface.h
 
 Nombre del módulo correspondiente: interface.c
 
-Descripción: 
+Descripción:
 Cabeceras del módulo Interface para la representación gráfica.
 
  ******************************************************************************/
@@ -67,4 +67,3 @@ extern void terminaInterfaz(INTERFAZ* interfaz);
 /*****************************************************************************/
 
 #endif	/* INTERFACE_H */
-

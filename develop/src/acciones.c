@@ -30,7 +30,7 @@ Modificaciones:
  *            -Combate.
  *            -hablar
 [01-05-2013] Iñaki Cadalso corrige comentarios
- * 
+ *
 [02-06-2013] Añadida funcion :
  *              -ComprobarPos
 Mejoras pendientes:
@@ -105,7 +105,7 @@ STATUS hablar(ENTORNO *ent, INTERFAZ *inter, PERSONAJE *pj, PERSONAJE *pnj) {
     }
     if (interactuar == FALSO) {
         free(c);
-        escribeConsola(inter, "No es un amigo,¡¡¡¡¡ es un enemigo !!!!!");
+        escribeConsola(inter, "No es un amigo,¡¡¡¡ es un enemigo !!!!!");
     } else {
         f = fopen("covn.txt", "r");
         fgets(c, 300, f);
@@ -536,7 +536,7 @@ STATUS nivelFinal(ENTORNO* ent, INTERFAZ* inter) {
         doupdate();
 
     }
-    
+
     return OKE;
 }
 
@@ -551,6 +551,3 @@ BOOL compruebaNivel(PERSONAJE* pj) {
     return FALSO;
 
 }
-
-
-
